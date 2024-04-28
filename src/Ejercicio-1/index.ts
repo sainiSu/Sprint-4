@@ -1,7 +1,7 @@
 //joke will appear on screen when reload the page
 window.onload = function () {
   displayRandomJoke();
-};
+}
 
 const displayRandomJoke = async (): Promise<void> => {
 
