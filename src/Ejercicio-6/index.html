@@ -8,27 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="background">
+<body class="blobs-1 big">
+    <div class="minblobs-1 min-position" id="positionA"></div>
+    <div class="minblobs-2 mmin-position" id="positionB"></div>
+
+    <div class="main">
         <div class="text">
 
-            <h2>Get ready to Laugh?&#129315;</h2>
+            <h1>Get ready to Laugh?&#129315;</h1>
             <p id="joke"></p>
 
             <div class="button-bar">
                 <button onclick="voting(1)">&#128532;</button> <!-- Score 1(worst) -->
                 <button onclick="voting(2)">&#128528;</button> <!-- Score 2 (Not bad)-->
                 <button onclick="voting(3)"> &#128516;</button> <!-- Score 3(Satisfied) -->
-            </div>
-            <div>
-
-                <button onclick="displayNextJoke()" id="btn">Next Joke!</button>
-
+                <button onclick="displayNextJoke()" id="btn" class="next-joke">Next Joke!</button>
             </div>
         </div>
 
-        <script src="../Ejercicio-3/index.js"></script>
-
+        <script src="../Ejercicio-6/index.js"></script>
 </body>
 
 </html>
